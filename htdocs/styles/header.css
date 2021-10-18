@@ -1,0 +1,28 @@
+#header {
+    width: 100vw;
+    height: 9.375vh;
+    margin: auto;
+    background-color: rgb(204, 0, 255);
+    display: table;
+}
+
+#logo {
+    float: left;
+    margin-top: 1vw;
+    margin-right: 0.4vw;
+    cursor: pointer;
+}
+
+#logo>img {
+    width: 30vw;
+    height: 8vh;
+}
+
+#profile {
+    float: right;
+    margin: 5% 2vw;
+    color: lightblue;
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+}

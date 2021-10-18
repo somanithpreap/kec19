@@ -1,0 +1,43 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Khmer OS Battambang';
+}
+
+.popup {
+    position: fixed;
+    width: 60%;
+    height: auto;
+    background-color: lightcoral;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.popup p {
+    text-align: center;
+}
+
+.popup-title {
+    width: auto;
+    color: white;
+    font-size: 120%;
+    padding: 5% 0 2% 0;
+}
+
+.popup-content {
+    padding: 2% 0 5% 0;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+hr {
+    width: 80%;
+    margin: 0 10%;
+    border: 1px solid whitesmoke;
+}

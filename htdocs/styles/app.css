@@ -1,0 +1,116 @@
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(189, 215, 238);
+}
+
+#content {
+    width: 100vw;
+    height: 81.25vh;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.feature-box {
+    width: 33.33vw;
+    /*width: 18.75vh;*/
+    height: 21.815vh;
+    cursor: pointer;
+}
+
+.feature-box:hover {
+    transform: scale(1.5, 1.5);
+    z-index: 2;
+}
+
+.feature-box>p {
+    text-align: center;
+}
+
+.feature-title {
+    font-family: 'Khmer OS Battambang';
+}
+
+#about {
+    background-color: rgb(207, 200, 57);
+    float: left;
+    margin: 4.6875vh 5.557vw 1.5625vh 11.113vw;
+}
+
+#about>img {
+    width: 80%;
+    height: 75%;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
+#statistics {
+    background-color: rgb(229, 95, 35);
+    float: right;
+    margin: 4.6875vh 11.113vw 1.5625vh 5.557vw;
+}
+
+#statistics>img {
+    width: 80%;
+    height: 75%;
+    margin-top: 1vh;
+    margin-bottom: -0.1vh;
+}
+
+#track-travel-history {
+    background-color: rgb(143, 170, 220);
+    float: left;
+    margin: 1.5625vh 5.557vw 1.5625vh 11.113vw;
+}
+
+#track-travel-history>img {
+    width: 17vh;
+    height: 6vh;
+    margin-top: 4vh;
+    margin-bottom: 2.5vh;
+}
+
+#health-tracking {
+    background-color: white;
+    float: right;
+    margin: 1.5625vh 11.113vw 1.5625vh 5.557vw;
+}
+
+#health-tracking>img {
+    width: 14vh;
+    height: 12vh;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+
+#support {
+    background-color: rgb(102, 102, 153);
+    float: left;
+    margin: 1.5625vh 5.557vw 4.6875vh 11.113vw;
+}
+
+#support img {
+    width: 33.33vw;
+    height: 13vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+#help {
+    color: black;
+    background-color: rgb(146, 208, 80);
+    float: right;
+    margin: 1.5625vh 11.113vw 4.6875vh 5.557vw;
+    text-align: center;
+}
+
+#help>img {
+    width: 16vh;
+    height: 16vh;
+    margin-top: 1vh;
+    margin-bottom: -0.4vh;
+}

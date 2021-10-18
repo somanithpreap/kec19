@@ -1,0 +1,25 @@
+.title {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+.content {
+    color: black;
+    text-indent: 10vw;
+    margin: 0 5vw;
+}
+
+.h3 {
+    text-align: center;
+    color: lightcoral;
+}
+
+hr {
+    width: 80vw;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+#epidemiology>.title {
+    margin-top: 2vh;
+}

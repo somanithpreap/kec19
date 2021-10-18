@@ -1,0 +1,13 @@
+#footer {
+    position:fixed;
+    height:9.375vh;
+    width: 100vw;
+    /*width:56.25vh;*/
+    background:gray;
+}
+
+#footer>p {
+    color: white;
+    text-align: center;
+    margin: 3.2vh 0;
+}

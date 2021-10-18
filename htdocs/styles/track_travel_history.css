@@ -1,0 +1,47 @@
+body, * {
+    margin: 0;
+    border: 0;
+    font-family: 'Khmer OS Battambang';
+    outline: none;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+}
+
+#location {
+    width: 80%;
+    padding: 2% 0 1% 0;
+    margin: 0 0 0 2%;
+    border: none;
+    border-bottom: 2px solid #222222;
+}
+
+#save {
+    width: 15%;
+    padding: 2% 2%;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+
+.no-data {
+    padding: 5% 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.history {
+    max-width: 84%;
+    margin: 5% auto;
+    padding: 0 3%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.date {
+    color: #66c3df;
+}

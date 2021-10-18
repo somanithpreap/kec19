@@ -1,0 +1,112 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Khmer OS Battambang';
+    outline: none;
+    transition: all 400ms;
+}
+
+#title {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 5%;
+    color: lightseagreen;
+}
+
+#container {
+    width: 90%;
+    margin: 5% 5%;
+}
+
+#username {
+    font-size: x-large;
+    color: rgb(166, 31, 207);
+}
+
+#userid {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+.row {
+    margin: 2% 0;
+}
+
+.row-odd {
+    margin: 2% 0;
+}
+
+#email-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bio, #education {
+    color: black;
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 25vh;
+    max-height: 25vh;
+    padding: 5% 5%;
+    font-size: 1em;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 10px;
+}
+
+#bio:focus, #education:focus {
+    border: 2px solid rgb(100, 100, 100);
+}
+
+#phone, #email, #age, #address, #job {
+    float: right;
+    width: 25%;
+    margin-right: 35%;
+    padding: 0 3%;
+    border: none;
+    border-bottom: 2px solid rgb(100, 100, 100);
+}
+
+#phone:focus, #email:focus, #age:focus, #address:focus, #job:focus {
+    margin: 0;
+    width: 64%;
+}
+
+#day, #month, #year {
+    width: 15%;
+    margin: 0 1%;
+    border: none;
+    border-bottom: 2px solid rgb(100, 100, 100);
+}
+
+#cancel {
+    width: 48%;
+    color: whitesmoke;
+    padding: 2%;
+    margin: 3% 0;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+
+#edit {
+    width: 48%;
+    color: whitesmoke;
+    float: right;
+    padding: 2%;
+    margin: 3% 0;
+    background-color: rgb(32, 96, 235);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logout {
+    width: 30%;
+    color: whitesmoke;
+    float: right;
+    padding: 2%;
+    margin: 3% 0;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

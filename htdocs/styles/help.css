@@ -1,0 +1,68 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Khmer OS Battambang';
+    outline: none;
+    transition: all 400ms;
+}
+
+.title {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 5%;
+    color: lightseagreen;
+}
+
+.intro {
+    text-indent: 5vw;
+}
+
+.container {
+    width: 90%;
+    margin: 5% 5%;
+}
+
+#message {
+    color: black;
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 25vh;
+    max-height: 25vh;
+    padding: 5% 5%;
+    font-size: 1em;
+    margin-top: 5%;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 10px;
+}
+
+#message:focus {
+    border: 2px solid rgb(100, 100, 100);
+}
+
+#cancel {
+    width: 48%;
+    color: whitesmoke;
+    padding: 2%;
+    margin: 3% 0;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+
+#send {
+    width: 48%;
+    color: whitesmoke;
+    float: right;
+    padding: 2%;
+    margin: 3% 0;
+    background-color: rgb(32, 96, 235);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.version {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
